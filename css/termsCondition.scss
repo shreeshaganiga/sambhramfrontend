@@ -1,0 +1,16 @@
+main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2em;
+}
+
+@media (max-width: 520px) {
+    main {
+        width: 95%;
+        padding: 2em 1.5em;
+        font-size: 1em;
+    }
+}

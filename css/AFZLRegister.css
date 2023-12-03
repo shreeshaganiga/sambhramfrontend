@@ -1,0 +1,694 @@
+.regisRestrictModal {
+  width: 100%;
+  height: 100%;
+  display: none !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  
+  background-color: rgba(0, 0, 0, 0.919);
+  background-image: url("../img/galleryImages/ld7opa.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.regisRestrictModal .neonText {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #00e1ff, 0 0 82px #00e1ff, 0 0 92px #00e1ff, 0 0 102px #00e1ff, 0 0 151px #00e1ff;
+  font-size: 3em;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.regisRestrictModal .title1 {
+  color: white;
+  font-size: 3em;
+  font-weight: bolder;
+  text-shadow: #dedede;
+  font-family: "Poppins", sans-serif;
+}
+
+.regisRestrictModal .timerContainer {
+  padding: 2em;
+  width: 80%;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1em;
+  position: relative;
+}
+
+main .OTPModal {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  min-height: 300px;
+  position: fixed;
+  top: 30%;
+  z-index: 1000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.979);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main .OTPModal .closeBtnOTP {
+  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 0.5em;
+  margin: 0.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+main .OTPModal .closeBtnOTP img {
+  width: 30px;
+}
+
+main .OTPModal .ModalTitle {
+  font-size: 1.7em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 1em 0em 0.5em 1em;
+  color: #ffffff;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+main .OTPModal form {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .OTPModal form p {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 0em 2em;
+}
+
+main .OTPModal form input {
+  border: 2px solid #dedede;
+  border-radius: 8px;
+  font-size: 1.1em;
+  padding: 0.7em 0.5em;
+  width: 50%;
+  max-width: 550px;
+  font-family: "Poppins", sans-serif;
+}
+
+main .OTPModal form input::-webkit-input-placeholder {
+  color: #bababa;
+}
+
+main .OTPModal form input:-ms-input-placeholder {
+  color: #bababa;
+}
+
+main .OTPModal form input::-ms-input-placeholder {
+  color: #bababa;
+}
+
+main .OTPModal form input::placeholder {
+  color: #bababa;
+}
+
+main .OTPModal form button {
+  margin: 1em 1em 0.5em 1em;
+  width: 30%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #56ff6a;
+  text-align: center;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.2em 1.7em;
+  font-size: 1.5em;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  min-width: 250px;
+}
+
+main .OTPModal form a {
+  color: #e3a300;
+}
+
+main .pageTitle {
+  width: 300px;
+  margin: 0 auto;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main .pageTitle img {
+  width: 100%;
+}
+
+main .line {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  top: 1.5em;
+  z-index: -10;
+}
+
+main .line img {
+  width: 100%;
+  height: 100%;
+}
+
+main .formContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .formContainer form {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+main .formContainer form #SectionTitle {
+  color: #363636;
+  font-size: 1.8em;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin: 0.5em;
+  margin-bottom: 0em;
+}
+
+main .formContainer form .detailsSection {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+  padding: 0em 1em;
+}
+
+main .formContainer form .detailsSection .HoriSepa {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .formContainer form .detailsSection label {
+  font-family: "Poppins", sans-serif;
+  color: #5c5c5c;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0;
+  margin: 1.2em 0em 0.1em 0em;
+  margin-left: 0.7em;
+}
+
+main .formContainer form .detailsSection input {
+  border: 2px solid #dedede;
+  border-radius: 8px;
+  font-size: 1.1em;
+  padding: 0.5em;
+  width: 90%;
+  max-width: 550px;
+  margin: 0.2em;
+  font-family: "Poppins", sans-serif;
+  margin-left: 1em;
+}
+
+main .formContainer form .detailsSection input::-webkit-input-placeholder {
+  color: #bababa;
+}
+
+main .formContainer form .detailsSection input:-ms-input-placeholder {
+  color: #bababa;
+}
+
+main .formContainer form .detailsSection input::-ms-input-placeholder {
+  color: #bababa;
+}
+
+main .formContainer form .detailsSection input::placeholder {
+  color: #bababa;
+}
+
+main .formContainer form .detailsSection #OTPBtn {
+  margin: 0.5em 1em;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #56c4ff;
+  text-align: center;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5em 2em;
+  font-size: 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+main .formContainer form .detailsSection #DisableState {
+  cursor: not-allowed;
+  background-color: #cbcbcb;
+  color: #6c6c6c;
+  margin: 0.5em 1em;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  text-align: center;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5em 2em;
+  font-size: 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+main .formContainer form .EventSection {
+  width: 100%;
+}
+
+main .formContainer form .EventSection .SubCategory {
+  width: 100%;
+  margin: 0.5em auto;
+  padding: 0em 1.2em;
+}
+
+main .formContainer form .EventSection .SubCategory .CategoryTitle {
+  color: #4b4b4b;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ff506d;
+          text-decoration-color: #ff506d;
+}
+
+main .formContainer form .EventSection .SubCategory .CategoryTitle a {
+  color: #888888;
+  text-decoration: underline;
+  font-size: 0.6em;
+  padding: 0.3em;
+  position: absolute;
+  -webkit-transform: translate(0.2em, 0.5em);
+          transform: translate(0.2em, 0.5em);
+}
+
+main .formContainer form .EventSection .SubCategory .rules {
+  margin: 0.5em 0em;
+  font-size: 1.3em;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+main .formContainer form .EventSection .SubCategory .select {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .formContainer form .EventSection .SubCategory .select__item {
+  cursor: pointer;
+  font-size: 1.1em;
+  background-color: white;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 0.7em;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 250px;
+}
+
+main .formContainer form .EventSection .SubCategory option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .formContainer form .EventSection .SubCategory .select__item--selected {
+  background: #27ff59;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+main #NextBtn {
+  margin: 0.5em 1em;
+  width: 30%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #56c4ff;
+  text-align: center;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5em 2em;
+  font-size: 1.5em;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  letter-spacing: 10px;
+}
+
+main .SepaLine {
+  width: 100%;
+  margin: 2em 0em 1em 0em;
+}
+
+.footer-text .copyright-text a {
+  color: #a0a1b5;
+}
+
+.footer-text .copyright-text a img {
+  width: 100px;
+}
+
+@media (max-width: 1110px) {
+  main .OTPModal {
+    width: 60%;
+  }
+}
+
+@media (max-width: 935px) {
+  main .OTPModal {
+    width: 80%;
+  }
+  main .OTPModal form input {
+    width: 70%;
+    min-width: 250px;
+  }
+  .spad {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+
+@-webkit-keyframes DropDown {
+  from {
+    -webkit-transform: translateY(-10em);
+            transform: translateY(-10em);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0em);
+            transform: translateY(0em);
+    opacity: 1;
+  }
+}
+
+@keyframes DropDown {
+  from {
+    -webkit-transform: translateY(-10em);
+            transform: translateY(-10em);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0em);
+            transform: translateY(0em);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 710px) {
+  main .formContainer form .EventSection .SubCategory .select__item {
+    font-size: 2.7vw;
+    text-align: center;
+    padding: 1em 1.7em;
+    margin: 0.7em;
+  }
+}
+
+@media (max-width: 610px) {
+  main .OTPModal {
+    width: 80%;
+    padding: 1em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  main .OTPModal .ModalTitle {
+    font-size: 1.4em;
+  }
+  main .formContainer form .detailsSection {
+    padding: 0em 0.5em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  main .OTPModal form p {
+    font-size: 1em;
+  }
+  main #NextBtn {
+    width: 50%;
+    padding: 0.5em 1.7em;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 525px) {
+  .regisRestrictModal {
+    height: 80%;
+  }
+  .regisRestrictModal .timerContainer {
+    padding: 1em;
+    width: 100%;
+  }
+  main .formContainer form #SectionTitle {
+    font-size: 1.3em;
+  }
+  main {
+    width: 98%;
+    margin-top: 0.7em;
+    margin: 0 auto;
+  }
+  main .title img {
+    width: 8000px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  main .formContainer form {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+  }
+  main .title {
+    width: 100%;
+    text-align: center;
+    margin: 1.2em 0em 0.5em 0em;
+  }
+  main .formContainer form .detailsSection {
+    padding: 0em 0.5em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  main .formContainer form .detailsSection label {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+    margin: 1em 0em 0.1em 0em;
+    margin-left: 0.7em;
+  }
+  main .formContainer form .EventSection {
+    margin-top: 2em;
+  }
+  main .formContainer form .EventSection .SubCategory {
+    padding: 0.5em;
+  }
+  main .formContainer form #SectionTitle {
+    font-size: 1.4em;
+  }
+  main .formContainer form .EventSection .SubCategory .rules {
+    margin: 0.5em 0em;
+    font-size: 1em;
+  }
+  main .formContainer form .EventSection .SubCategory .CategoryTitle {
+    font-size: 1.4em;
+    -webkit-text-decoration-color: #ff506d;
+            text-decoration-color: #ff506d;
+    margin-top: 0em;
+  }
+  main .formContainer form .EventSection .SubCategory .select__item {
+    font-size: 3.5vw;
+    text-align: center;
+    padding: 0.8em 0.7em;
+    margin: 0.7em;
+    min-width: 150px;
+    max-width: 150px;
+  }
+  main .formContainer form .EventSection .SubCategory .select {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main #NextBtn {
+    width: 60%;
+    padding: 0.5em 1.7em;
+    letter-spacing: 2px;
+  }
+  main .pageTitle {
+    width: 200px;
+    margin-top: 1em;
+  }
+}
+
+@media (max-width: 425px) {
+  main .OTPModal .ModalTitle {
+    font-size: 1.1em;
+    padding: 1em 0.5em 0em 1em;
+    width: 90%;
+  }
+  main .OTPModal form p {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 0em 1em;
+  }
+  main .OTPModal {
+    width: 80%;
+    padding: 1em;
+  }
+  .regisRestrictModal .neonText {
+    font-size: 2.5em;
+  }
+}
+/*# sourceMappingURL=AFZLRegister.css.map */

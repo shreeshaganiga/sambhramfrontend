@@ -1,0 +1,26 @@
+main {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2em;
+}
+
+@media (max-width: 520px) {
+  main {
+    width: 95%;
+    padding: 2em 1.5em;
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=termsCondition.css.map */

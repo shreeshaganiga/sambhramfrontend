@@ -1,0 +1,830 @@
+  .swiperContainer {
+  width: 100%;
+  background-color: black;
+}
+
+.swiperContainer .swiper {
+  width: 100%;
+  height: 1000px;
+  max-height: 33vw;
+}
+
+.swiperContainer .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiperContainer .swiper-pagination-bullet-active {
+  background-color: rgb(85, 255, 255) !important;
+}
+
+.swiperContainer .swiper-button-prev {
+  background-image: url(../img/new/swiperBtnLeft.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiperContainer .swiper-button-prev::after {
+  display: none;
+}
+
+.swiperContainer .swiper-button-next {
+  background-image: url(../img/new/swiperBtnRight.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiperContainer .swiper-button-next::after {
+  display: none;
+}
+
+.swiperContainer .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  background-position: center;
+}
+
+main {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .sneakPeak {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 3em 0em;
+}
+
+main .sneakPeak .galleryContainer {
+  width: auto;
+}
+
+main .sneakPeak .galleryContainer .swiper {
+  width: 450px;
+  height: 450px;
+}
+
+main .sneakPeak .galleryContainer .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #ffffff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .sneakPeak .galleryContainer .swiper-slide img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+}
+
+main .sneakPeak .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .sneakPeak .contentContainer .sectionTitle {
+  width: 250px;
+  margin: 0em 2em;
+  margin-bottom: 10px;
+}
+.anime1{
+  width: 100%;
+  height:fit-content;
+}
+
+main .sneakPeak .contentContainer .sectionTitle img {
+  width: 100%;
+}
+
+main .sneakPeak .contentContainer .content {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  margin: 0em 2em;
+  
+}
+
+main .sneakPeak .contentContainer a {
+  padding: 0.5em;
+  margin: 0.5em 2em;
+  width: 200px;
+  cursor: pointer;
+}
+
+main .sneakPeak .contentContainer a img {
+  width: 100%;
+}
+
+main .ourEventsContainer {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+main .ourEventsContainer .pageTitle {
+  width: 200px;
+  margin: 2.5em 2em 0em 2em;
+}
+
+main .ourEventsContainer .pageTitle img {
+  width: 100%;
+}
+
+main .ourEventsContainer .line {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  top: 4.4em;
+  z-index: -10;
+}
+
+main .ourEventsContainer .line img {
+  width: 100%;
+  height: 100%;
+}
+
+main .ourEventsContainer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  color: #ffffff;
+  margin: 0.5em 0em 1.5em 0em;
+  text-align: center;
+}
+
+main .ourEventsContainer .eventLinks {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .ourEventsContainer .eventLinks a {
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 25%;
+  min-width: 200px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+main .ourEventsContainer .eventLinks a img {
+  width: 100%;
+}
+
+main .ourEventsContainer .eventLinks a:hover {
+  -webkit-transform: translateY(-2em);
+          transform: translateY(-2em);
+}
+
+main .meetOurTeamContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+main .meetOurTeamContainer .pageTitle {
+  margin: 0 auto;
+  width: 350px;
+  margin: 1.5em 2em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main .meetOurTeamContainer .pageTitle img {
+  width: 100%;
+}
+
+main .meetOurTeamContainer .line {
+  width: 90%;
+  height: 10px;
+  position: absolute;
+  top: 1.5em;
+  z-index: -10;
+}
+
+main .meetOurTeamContainer .line img {
+  width: 100%;
+  height: 100%;
+}
+
+main .meetOurTeamContainer .coreMemberContainer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+main .meetOurTeamContainer .coreMemberContainer .sectionTitle {
+  position: absolute;
+  z-index: -10;
+  top: 4em;
+  width: 80%;
+  height: 200px;
+}
+
+main .meetOurTeamContainer .coreMemberContainer .sectionTitle img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+main .meetOurTeamContainer .coreMemberContainer .memberItem {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0.5em 1em;
+}
+
+main .meetOurTeamContainer .coreMemberContainer .memberItem img {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .meetOurTeamContainer .coreMemberContainer .memberItem .name {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: bolder;
+  max-width: 200px;
+}
+
+main .meetOurTeamContainer .coreMemberContainer .memberItem .role {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+}
+
+main .meetOurTeamContainer .coreMemberContainer .member-itemContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .meetOurTeamContainer .coreMemberContainer button {
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: orange;
+  padding: 0.5em 3em;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 15px;
+  margin: 0.5em;
+}
+
+main .meetOurTeamContainer .mediaTechContainer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  margin-top: 1em;
+  position: relative;
+}
+
+main .meetOurTeamContainer .mediaTechContainer .sectionTitle {
+  position: absolute;
+  top: -2em;
+  z-index: -10;
+  width: 100%;
+  height: 200px;
+}
+
+main .meetOurTeamContainer .mediaTechContainer .sectionTitle img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+main .meetOurTeamContainer .mediaTechContainer .memberItem {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0.5em 1em;
+}
+
+main .meetOurTeamContainer .mediaTechContainer .memberItem img {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .meetOurTeamContainer .mediaTechContainer .memberItem .name {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: bolder;
+  max-width: 200px;
+  padding: 0.1em;
+}
+
+main .meetOurTeamContainer .mediaTechContainer .memberItem .role {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  max-width: 170px;
+}
+
+main .meetOurTeamContainer .mediaTechContainer .member-itemContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .meetOurTeamContainer .mediaTechContainer button {
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: orange;
+  padding: 0.5em 3em;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 15px;
+  margin: 0.5em;
+}
+
+main .meetOurTeamContainer .contentWriterContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  margin-top: 1em;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .meetOurTeamContainer .contentWriterContainer .sectionTitle {
+  position: absolute;
+  z-index: -10;
+  top: -2em;
+  width: 80%;
+  height: 200px;
+}
+
+main .meetOurTeamContainer .contentWriterContainer .sectionTitle img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+main .meetOurTeamContainer .contentWriterContainer #horiSepa {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .meetOurTeamContainer .contentWriterContainer .memberItem {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0.5em 1em;
+}
+
+main .meetOurTeamContainer .contentWriterContainer .memberItem img {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .meetOurTeamContainer .contentWriterContainer .memberItem .name {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: bolder;
+  max-width: 200px;
+}
+
+main .meetOurTeamContainer .contentWriterContainer .memberItem .role {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+}
+
+main .meetOurTeamContainer .contentWriterContainer .member-itemContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .meetOurTeamContainer .contentWriterContainer button {
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: orange;
+  padding: 0.5em 3em;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 15px;
+  margin: 0.5em;
+}
+
+@media (max-width: 1120px) {
+  main .sneakPeak {
+    width: 100%;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+}
+
+@media (max-width: 820px) {
+  main .ourEventsContainer .eventLinks {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .ourEventsContainer .eventLinks a {
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 25%;
+    min-width: 200px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+  }
+  main .meetOurTeamContainer .coreMemberContainer .memberItem {
+    margin: 0.5em;
+  }
+  main .meetOurTeamContainer .coreMemberContainer .memberItem img {
+    width: 150px;
+  }
+  main .meetOurTeamContainer .coreMemberContainer .memberItem .name {
+    font-size: 1em;
+    max-width: 150px;
+  }
+  main .meetOurTeamContainer .coreMemberContainer .memberItem .role {
+    font-size: 0.8em;
+  }
+  main .meetOurTeamContainer .coreMemberContainer {
+    padding: 0.3em;
+  }
+  main .meetOurTeamContainer .coreMemberContainer .sectionTitle {
+    position: absolute;
+    z-index: -10;
+    top: 1em;
+  }
+  main .meetOurTeamContainer .mediaTechContainer .memberItem {
+    margin: 0.5em;
+  }
+  main .meetOurTeamContainer .mediaTechContainer .memberItem img {
+    width: 150px;
+  }
+  main .meetOurTeamContainer .mediaTechContainer .memberItem .name {
+    font-size: 1em;
+    max-width: 150px;
+  }
+  main .meetOurTeamContainer .mediaTechContainer .memberItem .role {
+    font-size: 0.8em;
+  }
+  main .meetOurTeamContainer .mediaTechContainer {
+    padding: 0.3em;
+  }
+  main .meetOurTeamContainer .mediaTechContainer .sectionTitle {
+    position: absolute;
+    z-index: -10;
+    top: -2em;
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 750px) {
+  .swiperContainer .swiper {
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+  .swiperContainer .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 530px) {
+  main {
+    width: 98%;
+  }
+  main .sneakPeak .galleryContainer {
+    width: 90%;
+  }
+  main .sneakPeak .galleryContainer .swiper {
+    width: 100%;
+  }
+  main .sneakPeak .contentContainer .sectionTitle {
+    width: 200px;
+    margin: 0em 0.7em;
+  }
+  main .sneakPeak .contentContainer .content {
+    font-size: 1em;
+    margin: 0em 0.7em;
+  }
+  main .sneakPeak .contentContainer a {
+    padding: 0.5em;
+    margin: 0.5em 0.7em;
+    width: 200px;
+  }
+  main .ourEventsContainer {
+    width: 99%;
+  }
+  main .ourEventsContainer .eventLinks a {
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 10%;
+    min-width: 150px;
+  }
+  main .ourEventsContainer p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    margin: 0.5em 0em;
+  }
+  main .ourEventsContainer .pageTitle {
+    width: 150px;
+    margin: 0em 2em;
+  }
+  main .ourEventsContainer .line {
+    top: 1.2em;
+  }
+  main .meetOurTeamContainer .coreMemberContainer {
+    width: 100%;
+  }
+  main .meetOurTeamContainer .coreMemberContainer .sectionTitle {
+    top: 0em;
+    width: 99%;
+  }
+  main .meetOurTeamContainer .coreMemberContainer button {
+    background-color: transparent;
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: orange;
+    padding: 0.5em 3em;
+    border: none;
+    border-radius: 15px;
+    margin: 0.5em;
+  }
+  main .meetOurTeamContainer .mediaTechContainer {
+    width: 100%;
+  }
+  main .meetOurTeamContainer .mediaTechContainer button {
+    background-color: transparent;
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: orange;
+    padding: 0.5em 3em;
+    border: none;
+    border-radius: 15px;
+    margin: 0.5em;
+  }
+  main .meetOurTeamContainer .pageTitle {
+    margin: 0 auto;
+    width: 270px;
+    margin: 1em;
+    text-align: center;
+    margin: 0 auto;
+  }
+  main .meetOurTeamContainer .line {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 1em;
+  }
+}
+/*# sourceMappingURL=home.css.map */

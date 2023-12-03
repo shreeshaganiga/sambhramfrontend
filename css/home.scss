@@ -1,0 +1,617 @@
+// * {
+//     outline: 1px solid red;
+// }
+.swiperContainer {
+    width: 100%;
+    background-color: black;
+    .swiper {
+        width: 100%;
+        height: auto;
+        max-height: 33vw;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #ff55b7 !important;
+    }
+    .swiper-button-prev {
+        background-image: url(../img/swiperBtnLeft.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+    }
+    .swiper-button-prev::after {
+        display: none;
+    }
+    .swiper-button-next {
+        background-image: url(../img/swiperBtnRight.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+    }
+    .swiper-button-next::after {
+        display: none;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        background-position: center;
+    }
+}
+
+main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    .sneakPeak {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        margin: 3em 0em;
+        .galleryContainer {
+            width: auto;
+            .swiper {
+                width: 450px;
+                height: 450px;
+            }
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                object-fit: cover;
+                background-position: center;
+            }
+        }
+        .contentContainer {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            .sectionTitle {
+                width: 250px;
+                margin: 0em 2em;
+                img {
+                    width: 100%;
+                }
+            }
+            .content {
+                font-family: "Poppins", sans-serif;
+                font-size: 1.2em;
+                color: #696969;
+                margin: 0em 2em;
+            }
+            a {
+                padding: 0.5em;
+                margin: 0.5em 2em;
+                width: 200px;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .ourEventsContainer {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        .pageTitle {
+            width: 200px;
+            margin: 2.5em 2em 0em 2em;
+            img {
+                width: 100%;
+            }
+        }
+        .line {
+            width: 100%;
+            height: 10px;
+            position: absolute;
+            top: 4.4em;
+            z-index: -10;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.2em;
+            color: #696969;
+            margin: 0.5em 0em 1.5em 0em;
+            text-align: center;
+        }
+        .eventLinks {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            a {
+                padding: 0.5em;
+                margin: 0.5em;
+                width: 25%;
+                min-width: 200px;
+                transition: all ease 0.5s;
+                img {
+                    width: 100%;
+                }
+            }
+            a:hover {
+                transform: translateY(-2em);
+            }
+        }
+    }
+    .meetOurTeamContainer {
+        width: 100%;
+        // border: 2px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        .pageTitle {
+            margin: 0 auto;
+            width: 350px;
+            margin: 1.5em 2em;
+            text-align: center;
+            margin: 0 auto;
+            img {
+                width: 100%;
+            }
+        }
+        .line {
+            width: 90%;
+            height: 10px;
+            position: absolute;
+            top: 1.5em;
+            z-index: -10;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .coreMemberContainer {
+            width: 80%;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 1em;
+            margin-top: 1em;
+            .sectionTitle {
+                position: absolute;
+                z-index: -10;
+                top: 4em;
+                width: 80%;
+                height: 200px;
+                // border: 2px solid green;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
+            }
+            .memberItem {
+                width: fit-content;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 0.5em 1em;
+                img {
+                    width: 200px;
+                    object-fit: contain;
+                    // justify-self: center;
+                    // align-self: center;
+                }
+                .name {
+                    color: #111111;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.4em;
+                    font-weight: bolder;
+                    max-width: 200px;
+                }
+                .role {
+                    color: #3e3e3e;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.2em;
+                }
+            }
+            .member-itemContainer {
+                // border: 2px solid yellow;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            button {
+                background-color: transparent;
+                font-size: 1.5em;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                color: orange;
+                padding: 0.5em 3em;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                border-radius: 15px;
+                margin: 0.5em;
+            }
+        }
+        .mediaTechContainer {
+            width: 80%;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 1em;
+            margin-top: 1em;
+            position: relative;
+            .sectionTitle {
+                position: absolute;
+                top: -2em;
+                z-index: -10;
+                width: 100%;
+                height: 200px;
+                // border: 2px solid green;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
+            }
+            .memberItem {
+                width: fit-content;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 0.5em 1em;
+                img {
+                    width: 200px;
+                    object-fit: contain;
+                    // justify-self: center;
+                    // align-self: center;
+                }
+                .name {
+                    color: #111111;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.4em;
+                    font-weight: bolder;
+                    max-width: 200px;
+                    padding: 0.1em;
+                }
+                .role {
+                    color: #3e3e3e;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.2em;
+                    max-width: 170px;
+                }
+            }
+            .member-itemContainer {
+                // border: 2px solid yellow;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            button {
+                background-color: transparent;
+                font-size: 1.5em;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                color: orange;
+                padding: 0.5em 3em;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                border-radius: 15px;
+                margin: 0.5em;
+            }
+        }
+        .contentWriterContainer {
+            width: 100%;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 1em;
+            margin-top: 1em;
+            position: relative;
+            flex-wrap: wrap;
+            .sectionTitle {
+                position: absolute;
+                z-index: -10;
+                top: -2em;
+                width: 80%;
+                height: 200px;
+                // border: 2px solid green;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
+            }
+            #horiSepa {
+                flex-direction: row;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .memberItem {
+                width: fit-content;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 0.5em 1em;
+                img {
+                    width: 200px;
+                    object-fit: contain;
+                    // justify-self: center;
+                    // align-self: center;
+                }
+                .name {
+                    color: #111111;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.4em;
+                    font-weight: bolder;
+                    max-width: 200px;
+                }
+                .role {
+                    color: #3e3e3e;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.2em;
+                }
+            }
+            .member-itemContainer {
+                // border: 2px solid yellow;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            button {
+                background-color: transparent;
+                font-size: 1.5em;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                color: orange;
+                padding: 0.5em 3em;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                border-radius: 15px;
+                margin: 0.5em;
+            }
+        }
+    }
+}
+
+/////////////////////////////////////////////////media Queries
+@media (max-width: 1120px) {
+    main .sneakPeak {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media (max-width: 820px) {
+    main .ourEventsContainer .eventLinks {
+        justify-content: center;
+    }
+    main .ourEventsContainer .eventLinks a {
+        padding: 0.5em;
+        margin: 0.5em;
+        width: 25%;
+        min-width: 200px;
+        -webkit-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .memberItem {
+        margin: 0.5em;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .memberItem img {
+        width: 150px;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .memberItem .name {
+        font-size: 1em;
+        max-width: 150px;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .memberItem .role {
+        font-size: 0.8em;
+    }
+    main .meetOurTeamContainer .coreMemberContainer {
+        padding: 0.3em;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .sectionTitle {
+        position: absolute;
+        z-index: -10;
+        top: 1em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .memberItem {
+        margin: 0.5em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .memberItem img {
+        width: 150px;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .memberItem .name {
+        font-size: 1em;
+        max-width: 150px;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .memberItem .role {
+        font-size: 0.8em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer {
+        padding: 0.3em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .sectionTitle {
+        position: absolute;
+        z-index: -10;
+        top: -2em;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 750px) {
+    .swiperContainer .swiper {
+        width: 100%;
+        // height: 900px;
+        // max-height: 60vw;
+        overflow: hidden;
+        height: 250px;
+        max-height: fit-content;
+    }
+    .swiperContainer .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 530px) {
+    main {
+        width: 98%;
+    }
+    main .sneakPeak .galleryContainer {
+        width: 90%;
+        .swiper {
+            width: 100%;
+        }
+    }
+    main .sneakPeak .contentContainer .sectionTitle {
+        width: 200px;
+        margin: 0em 0.7em;
+    }
+    main .sneakPeak .contentContainer .content {
+        font-size: 1em;
+        margin: 0em 0.7em;
+    }
+    main .sneakPeak .contentContainer a {
+        padding: 0.5em;
+        margin: 0.5em 0.7em;
+        width: 200px;
+    }
+    main .ourEventsContainer {
+        width: 99%;
+    }
+    main .ourEventsContainer .eventLinks a {
+        padding: 0.5em;
+        margin: 0.5em;
+        width: 10%;
+        min-width: 150px;
+    }
+    main .ourEventsContainer p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.1em;
+        color: #696969;
+        margin: 0.5em 0em;
+    }
+    main .ourEventsContainer .pageTitle {
+        width: 150px;
+        margin: 0em 2em;
+    }
+    main .ourEventsContainer .line {
+        top: 1.2em;
+    }
+    main .meetOurTeamContainer .coreMemberContainer {
+        width: 100%;
+        .sectionTitle {
+            top: 0em;
+            width: 99%;
+        }
+    }
+    main .meetOurTeamContainer .coreMemberContainer button {
+        background-color: transparent;
+        font-size: 1.2em;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: orange;
+        padding: 0.5em 3em;
+        border: none;
+        border-radius: 15px;
+        margin: 0.5em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer {
+        width: 100%;
+    }
+    main .meetOurTeamContainer .mediaTechContainer button {
+        background-color: transparent;
+        font-size: 1.2em;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: orange;
+        padding: 0.5em 3em;
+        border: none;
+        border-radius: 15px;
+        margin: 0.5em;
+    }
+    main .meetOurTeamContainer .pageTitle {
+        margin: 0 auto;
+        width: 270px;
+        margin: 1em;
+        text-align: center;
+        margin: 0 auto;
+    }
+    main .meetOurTeamContainer .line {
+        width: 100%;
+        height: 20px;
+        position: absolute;
+        top: 1em;
+    }
+}
+
+/////////////////////////////////////////////////media Queries

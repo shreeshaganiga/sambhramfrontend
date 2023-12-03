@@ -1,0 +1,213 @@
+.swal2-container.swal2-center>.swal2-popup {
+    width: 50%;
+    min-width: 500px;
+}
+
+.modalEventDetails p a {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    color: red;
+    border: none;
+    box-shadow: none;
+}
+
+.modalEventDetails p a:hover {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.swal2-title {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.8em 1em 0;
+    color: inherit;
+    font-size: 1.875em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: none;
+    word-wrap: break-word;
+}
+
+.swal2-close {
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0.2em;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+    font-size: 2.5em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    justify-self: end;
+}
+
+.swal-modal .swal2-close:hover {
+    color: #f27474;
+}
+
+.modalEventDetails {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    #eventName {
+        color: #4e4e4e;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+    p {
+        font-size: 1em;
+        padding: 0;
+        margin: 0.3;
+        font-family: "Poppins", sans-serif;
+        color: #5d5d5d;
+        text-align: start;
+    }
+    a {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        color: #f07a36;
+        padding: 0.5em 3em;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3em;
+        font-weight: bold;
+        border-radius: 60px;
+        justify-self: center;
+        align-self: center;
+        margin: 1em;
+    }
+    a:hover {
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+}
+
+main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    .pageTitle {
+        width: 180px;
+        margin: 1.5em 2em;
+        img {
+            width: 100%;
+        }
+    }
+    .line {
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        top: 3em;
+        z-index: -10;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .schedule-table-section {
+        padding-top: 0;
+        width: 100%;
+    }
+    .schedule-table-tab .nav-tabs {
+        width: 100%;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 50px;
+    }
+    .schedule-table-tab .nav-tabs .nav-item {
+        border-right: 1px solid #e7e7e8;
+        width: fit-content;
+        text-align: center;
+        padding: 0;
+    }
+    #button-solids {
+        border: none;
+        background: transparent;
+    }
+    button-solid:focus {
+        border: none;
+        outline: none;
+    }
+    .newslatter-inner .ni-text h4 {
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    main .schedule-table-tab .nav-tabs {
+        width: 100%;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .schedule-table-tab .nav-tabs .nav-item .nav-link {
+        font-size: 1.2em;
+        padding: 1em 1em;
+    }
+    main .schedule-table-tab .nav-tabs .nav-item {
+        border-right: none;
+        padding: 0;
+        width: 100%;
+        border-bottom: 3px solid rgb(230, 230, 230);
+        word-break: keep-all;
+    }
+    .schedule-table-tab .schedule-table-content table tbody tr td.break h5 {
+        margin-bottom: 0;
+        font-size: 1.1em;
+    }
+    .schedule-table-tab .schedule-table-content table tbody tr td p span {
+        color: #a0a1b5;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 520px) {
+    .swal2-container.swal2-center>.swal2-popup {
+        min-width: 98%;
+    }
+    .modalEventDetails p {
+        font-size: 0.9em;
+        margin: 0.1em 0em;
+    }
+    .modalEventDetails a {
+        padding: 0.5em 3em;
+        font-size: 1em;
+        margin: 1em;
+    }
+}
+
+@media (max-width: 350px) {
+    .modalEventDetails #eventName {
+        color: #4e4e4e;
+        font-family: "Poppins", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+    }
+    .modalEventDetails a {
+        padding: 0.5em 1.5em;
+        font-size: 1em;
+        margin: 1em;
+    }
+    .swal2-title {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,691 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: #111111;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.CounterContainer {
+    margin-bottom: 2em;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    .pageTitle {
+        margin: 0 auto;
+        width: 250px;
+        margin: 1.5em 2em;
+        text-align: center;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+    .line {
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        top: 1.6em;
+        z-index: -10;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .section-title h2 {
+        font-size: 2.5em;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        color: #171822;
+        margin-bottom: 10px;
+        margin-top: 0.4em;
+    }
+    .about-section .section-title p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2em;
+    }
+    .swiper {
+        width: 100%;
+    }
+    .mot {
+        position: relative;
+        .pageTitle {
+            width: 350px;
+            margin: 1.5em 2em;
+            margin: 0 auto;
+            text-align: center;
+            margin: 1em auto 3em auto;
+            img {
+                width: 100%;
+            }
+        }
+        .line {
+            width: 100%;
+            height: 10px;
+            position: absolute;
+            top: 1.3em;
+            z-index: -10;
+            margin: 0 auto;
+            left: 0;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    .aboutusGalleryContainer {
+        width: 100%;
+        .swiper {
+            width: 100%;
+            height: auto;
+            max-height: 27vw;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: #ff55b7 !important;
+        }
+        .swiper-button-prev {
+            background-image: url(../img/swiperBtnLeft.svg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+        }
+        .swiper-button-prev::after {
+            display: none;
+        }
+        .swiper-button-next {
+            background-image: url(../img/swiperBtnRight.svg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+        }
+        .swiper-button-next::after {
+            display: none;
+        }
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-position: center;
+        }
+    }
+    .meetOurTeamContainer {
+        width: 100%;
+        // border: 2px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        .pageTitle {
+            margin: 0 auto;
+            width: 350px;
+            margin: 1.5em 2em;
+            text-align: center;
+            margin: 0 auto;
+            img {
+                width: 100%;
+            }
+        }
+        .line {
+            width: 90%;
+            height: 10px;
+            position: absolute;
+            top: 1.5em;
+            z-index: -10;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .coreMemberContainer {
+            width: 80%;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 1em;
+            margin-top: 1em;
+            .sectionTitle {
+                position: absolute;
+                z-index: -10;
+                top: 4em;
+                width: 80%;
+                height: 200px;
+                // border: 2px solid green;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
+            }
+            .memberItem {
+                width: fit-content;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 0.5em 1em;
+                img {
+                    width: 200px;
+                    object-fit: contain;
+                    // justify-self: center;
+                    // align-self: center;
+                }
+                .name {
+                    color: #111111;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.4em;
+                    font-weight: bolder;
+                    max-width: 200px;
+                }
+                .role {
+                    color: #3e3e3e;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.2em;
+                }
+            }
+            .member-itemContainer {
+                // border: 2px solid yellow;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            button {
+                background-color: transparent;
+                font-size: 1.5em;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                color: orange;
+                padding: 0.5em 3em;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                border-radius: 15px;
+                margin: 0.5em;
+            }
+        }
+        .mediaTechContainer {
+            width: 80%;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 1em;
+            margin-top: 1em;
+            position: relative;
+            .sectionTitle {
+                position: absolute;
+                top: -2em;
+                z-index: -10;
+                width: 100%;
+                height: 200px;
+                // border: 2px solid green;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
+            }
+            .memberItem {
+                width: fit-content;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 0.5em 1em;
+                img {
+                    width: 200px;
+                    object-fit: contain;
+                    // justify-self: center;
+                    // align-self: center;
+                }
+                .name {
+                    color: #111111;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.4em;
+                    font-weight: bolder;
+                    max-width: 200px;
+                    padding: 0.1em;
+                }
+                .role {
+                    color: #3e3e3e;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.2em;
+                    max-width: 170px;
+                }
+            }
+            .member-itemContainer {
+                // border: 2px solid yellow;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            button {
+                background-color: transparent;
+                font-size: 1.5em;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                color: orange;
+                padding: 0.5em 3em;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                border-radius: 15px;
+                margin: 0.5em;
+            }
+        }
+        .contentWriterContainer {
+            width: 100%;
+            // border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 1em;
+            margin-top: 1em;
+            position: relative;
+            flex-wrap: wrap;
+            .sectionTitle {
+                position: absolute;
+                z-index: -10;
+                top: -2em;
+                width: 80%;
+                height: 200px;
+                // border: 2px solid green;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
+            }
+            #horiSepa {
+                flex-direction: row;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .memberItem {
+                width: fit-content;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 0.5em 1em;
+                img {
+                    width: 200px;
+                    object-fit: contain;
+                    // justify-self: center;
+                    // align-self: center;
+                }
+                .name {
+                    color: #111111;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.4em;
+                    font-weight: bolder;
+                    max-width: 200px;
+                }
+                .role {
+                    color: #3e3e3e;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.2em;
+                }
+            }
+            .member-itemContainer {
+                // border: 2px solid yellow;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            button {
+                background-color: transparent;
+                font-size: 1.5em;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                color: orange;
+                padding: 0.5em 3em;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                border-radius: 15px;
+                margin: 0.5em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .meet-grid-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+        /* background-color: #4d677b; */
+        /* padding: 3%; */
+        gap: 2%;
+    }
+    .meet-grid-item {
+        padding: 20px;
+        margin: 2%;
+        font-size: 30px;
+        text-align: left;
+    }
+    .newmy img {
+        height: 500px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .meet-grid-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+        /* background-color: #4d677b; */
+        /* padding: 3%; */
+        gap: 2%;
+    }
+    .meet-grid-item {
+        padding: 20px;
+        margin: 2%;
+        font-size: 30px;
+        text-align: left;
+    }
+    .newmy img {
+        height: 400px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 940px) {
+    .spad {
+        padding-top: 10px;
+        padding-bottom: 80px;
+        width: 100%;
+    }
+}
+
+// @media (max-width: 800px) {
+//     main .meetOurTeamContainer .coreMemberContainer .memberItem {
+//         margin: 0.5em;
+//     }
+//     main .meetOurTeamContainer .coreMemberContainer .memberItem img {
+//         width: 150px;
+//     }
+//     main .meetOurTeamContainer .coreMemberContainer .memberItem .name {
+//         font-size: 1.2em;
+//         max-width: 170px;
+//     }
+//     main .meetOurTeamContainer .coreMemberContainer .memberItem .role {
+//         font-size: 1em;
+//     }
+//     main .meetOurTeamContainer .mediaTechContainer .memberItem {
+//         margin: 0.5em;
+//     }
+//     main .meetOurTeamContainer .mediaTechContainer .memberItem img {
+//         width: 150px;
+//     }
+//     main .meetOurTeamContainer .mediaTechContainer .memberItem .name {
+//         font-size: 1.2em;
+//         max-width: 170px;
+//     }
+//     main .meetOurTeamContainer .mediaTechContainer .memberItem .role {
+//         font-size: 1em;
+//     }
+// }
+@media only screen and (max-width: 700px) {
+    .meet-grid-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: auto;
+        grid-template-columns: auto auto;
+        /* background-color: #4d677b; */
+        gap: 1%;
+    }
+    .meet-grid-item {
+        padding: 0px;
+        font-size: 30px;
+        text-align: left;
+        overflow: hidden;
+    }
+    .newmy img {
+        height: 400px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+.meet-grid-item img {
+    width: 100%;
+    border-radius: 5% 5% 0% 0%;
+}
+
+#carouselAbout img {
+    height: 400px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+@media (max-width: 800px) {
+    main .meetOurTeamContainer .coreMemberContainer .memberItem {
+        margin: 0.5em;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .memberItem img {
+        width: 150px;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .memberItem .name {
+        font-size: 1em;
+        max-width: 150px;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .memberItem .role {
+        font-size: 0.8em;
+    }
+    main .meetOurTeamContainer .coreMemberContainer {
+        padding: 0.3em;
+    }
+    main .meetOurTeamContainer .coreMemberContainer .sectionTitle {
+        position: absolute;
+        z-index: -10;
+        top: 1em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .memberItem {
+        margin: 0.5em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .memberItem img {
+        width: 150px;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .memberItem .name {
+        font-size: 1em;
+        max-width: 150px;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .memberItem .role {
+        font-size: 0.8em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer {
+        padding: 0.3em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer .sectionTitle {
+        position: absolute;
+        z-index: -10;
+        top: -2em;
+        width: 100%;
+        height: 200px;
+    }
+    main .meetOurTeamContainer .contentWriterContainer .memberItem {
+        margin: 0.5em;
+    }
+    main .meetOurTeamContainer .contentWriterContainer .memberItem img {
+        width: 150px;
+    }
+    main .meetOurTeamContainer .contentWriterContainer .memberItem .name {
+        font-size: 1em;
+        max-width: 150px;
+    }
+    main .meetOurTeamContainer .contentWriterContainer .memberItem .role {
+        font-size: 0.8em;
+    }
+    main .meetOurTeamContainer .contentWriterContainer {
+        padding: 0.3em;
+    }
+    main .meetOurTeamContainer .contentWriterContainer .sectionTitle {
+        position: absolute;
+        z-index: -10;
+        top: -3em;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 520px) {
+    main .about-section .section-title p {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.9em;
+    }
+    .about-section .section-title h2 {
+        margin-bottom: 5px;
+        font-size: 1.5em;
+        text-align: start;
+        margin: 0.2em 0em;
+    }
+    main .mot .pageTitle {
+        width: 250px;
+        margin-bottom: 1em;
+    }
+    main .mot .line {
+        top: 0.8em;
+    }
+    main .aboutusGalleryContainer .swiper {
+        width: auto;
+        height: 60vw;
+        max-height: none;
+    }
+    main .pageTitle {
+        margin: 0 auto;
+        width: 200px;
+        margin: 1em;
+        text-align: center;
+        margin: 0 auto;
+    }
+    main .line {
+        width: 100%;
+        height: 20px;
+        position: absolute;
+        top: 1.2em;
+        z-index: -10;
+    }
+    .about-section .section-title {
+        margin-bottom: 1em;
+    }
+    .spad {
+        padding-top: 10px;
+        padding-bottom: 80px;
+        width: 100%;
+    }
+    main .meetOurTeamContainer .pageTitle {
+        margin: 0 auto;
+        width: 270px;
+        margin: 1em;
+        text-align: center;
+        margin: 0 auto;
+    }
+    main .meetOurTeamContainer .line {
+        width: 100%;
+        height: 20px;
+        position: absolute;
+        top: 1em;
+    }
+    main .meetOurTeamContainer .coreMemberContainer {
+        width: 100%;
+        .sectionTitle {
+            top: 0em;
+            width: 99%;
+        }
+    }
+    main .meetOurTeamContainer .coreMemberContainer button {
+        background-color: transparent;
+        font-size: 1.2em;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: orange;
+        padding: 0.5em 3em;
+        border: none;
+        border-radius: 15px;
+        margin: 0.5em;
+    }
+    main .meetOurTeamContainer .mediaTechContainer {
+        width: 100%;
+    }
+    main .meetOurTeamContainer .mediaTechContainer button {
+        background-color: transparent;
+        font-size: 1.2em;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: orange;
+        padding: 0.5em 3em;
+        border: none;
+        border-radius: 15px;
+        margin: 0.5em;
+    }
+    .section-title h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #171822;
+        margin-bottom: 10px;
+    }
+    .contact-section .section-title {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    main .meetOurTeamContainer .contentWriterContainer button {
+        background-color: transparent;
+        font-size: 1.2em;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: orange;
+        padding: 0.5em 3em;
+        border: none;
+        border-radius: 15px;
+        margin: 0.5em;
+    }
+}

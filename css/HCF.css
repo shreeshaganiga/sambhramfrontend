@@ -1,0 +1,691 @@
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header {
+  margin: 1em auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .logo {
+  margin: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  padding: 0;
+}
+
+header .logo a {
+  width: 250px;
+}
+
+header .logo a img {
+  width: 100%;
+  height: 100%;
+}
+
+header .links ul {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .links ul li {
+  list-style: none;
+  margin: 0.2em 0.5em;
+}
+
+header .links ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0.5em;
+  margin: 0em;
+  color: #ffffff;
+  -webkit-transition: all ease 150ms;
+  transition: all ease 150ms;
+  text-decoration: none;
+}
+
+header .links ul li a:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+#RegisterLink{
+  width: 150px;
+  height: 25px;
+}
+
+/* header .links ul  {
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  padding: 0.5em 1.5em;
+} */
+
+/* header .links ul img {
+  min-width: max-content;
+  margin: 0.2em 0.5em;
+} */
+
+/* header .links ul  {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+          box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+  -webkit-transform: translateY(-0.2em);
+          transform: translateY(-0.2em);
+} */
+
+header .MobileDropDown {
+  display: none;
+}
+@keyframes glowing-border {
+  0% {
+      box-shadow: 0px 0px 40px rgba(255, 0, 0, 1.0),
+                  0px 0px 40px rgba(0, 255, 0, 1.0),
+                  0px 0px 40px rgba(0, 0, 255, 1.0);
+  }
+  25% {
+      box-shadow: 0px 0px 40px rgba(0, 255, 0, 1.0),
+                  0px 0px 40px rgba(0, 0, 255, 1.0),
+                  0px 0px 40px rgba(255, 0, 0, 1.0);
+  }
+  50% {
+      box-shadow: 0px 0px 40px rgba(0, 0, 255, 1.0),
+                  0px 0px 40px rgba(255, 0, 0, 1.0),
+                  0px 0px 40px rgba(0, 255, 0, 1.0);
+  }
+  75% {
+      box-shadow: 0px 0px 40px rgba(255, 0, 0, 1.0),
+                  0px 0px 40px rgba(0, 255, 0, 1.0),
+                  0px 0px 40px rgba(0, 0, 255, 1.0);
+  }
+  100% {
+      box-shadow: 0px 0px 40px rgba(0, 255, 0, 1.0),
+                  0px 0px 40px rgba(0, 0, 255, 1.0),
+                  0px 0px 40px rgba(255, 0, 0, 1.0);
+  }
+}
+.CounterContainer {
+  width: 100%;
+  background: linear-gradient(89.41deg,#c100c1 , #0000ff , #16c5ff );
+  background-size: 600% 600%;
+  -webkit-animation: Gradient 6s ease infinite;
+          animation: Gradient 6s ease infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+          /* box-shadow:linear-gradient(to right, rgb(0, 255, 229), #00ff88, rgb(0, 255, 191)); */
+}
+/* #Counter{
+  animation: 4s ease-in-out infinite glowing-border;
+} */
+
+.CounterContainer .SubContainer {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+          
+}
+
+.CounterContainer .SubContainer .typo {
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.CounterContainer .SubContainer .typo .typo1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.CounterContainer .SubContainer .typo .typo2 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.CounterContainer .SubContainer .CounterTime {
+  width: auto;
+}
+
+.CounterContainer .SubContainer .CounterTime #countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1em 0em;
+}
+
+.CounterContainer .SubContainer .CounterTime #countdown .cd-item {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.3em 1.7em;
+  margin: 0em 1em;
+  min-width: 90px;
+  min-height: 90px;
+}
+
+.CounterContainer .SubContainer .CounterTime #countdown .cd-item span {
+  color: rgb(0, 0, 0);
+  font-size: 2.2em;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.CounterContainer .SubContainer .CounterTime #countdown .cd-item p {
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.offerBanner {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.offerBanner img {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.footer-text .copyright-text a {
+  color: #ffffff;
+}
+
+.footer-text .copyright-text a img {
+  width: 100px;
+}
+
+@media (max-width: 935px) {
+  header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .CounterContainer .SubContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 0.5em 0em;
+  }
+  .CounterContainer .SubContainer .typo .typo1 {
+    font-size: 1em;
+  }
+  .CounterContainer .SubContainer .typo .typo2 {
+    font-size: 1.5em;
+  }
+  .CounterContainer .SubContainer .CounterTime #countdown {
+    padding: 0.7em 0em;
+  }
+  .CounterContainer .SubContainer .CounterTime #countdown .cd-item {
+    padding: 0.3em 1.5em;
+    margin: 0em 1em;
+    min-width: 50px;
+    min-height: 50px;
+  }
+  .CounterContainer .SubContainer .CounterTime #countdown .cd-item span {
+    font-size: 2em;
+  }
+  .CounterContainer .SubContainer .CounterTime #countdown .cd-item p {
+    font-size: 1em;
+  }
+  .spad {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+
+@-webkit-keyframes DropDown {
+  from {
+    -webkit-transform: translateY(-10em);
+            transform: translateY(-10em);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0em);
+            transform: translateY(0em);
+    opacity: 1;
+  }
+}
+
+@keyframes DropDown {
+  from {
+    -webkit-transform: translateY(-10em);
+            transform: translateY(-10em);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0em);
+            transform: translateY(0em);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 750px) {
+  header {
+    width: 100%;
+  }
+  header .links {
+    display: none;
+  }
+  header .MobileDropDown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    z-index: 2000;
+  }
+  header .MobileDropDown #RegisterLinkMobile {
+    /* background: linear-gradient(92.28deg, #bdff39 8.54%, #2efe77 50.01%, #51f3ff 93.7%); */
+    border-radius: 50px;
+    color: white;
+    padding: 0.5em 1.5em;
+    width: 27vw;
+    min-width: 150px;
+    margin: 0.2em 0.5em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  header .MobileDropDown button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    padding: 0.6em;
+    margin: 0.3em;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  header .MobileDropDown button img {
+    width: 7vw;
+  }
+  header .MobileDropDown ul {
+    width: 100%;
+    position: absolute;
+    top: 130%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: rgba(38, 38, 38, 0.961);
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 1px solid #565656;
+  }
+  header .MobileDropDown ul li {
+    list-style: none;
+    margin: 0.2em;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    border-bottom: 1px solid #565656;
+    padding: 1em;
+  }
+  header .MobileDropDown ul li a {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    padding: 0.7em 2em;
+    margin: 0.2em;
+    color: #ffffff;
+    -webkit-transition: all ease 150ms;
+    transition: all ease 150ms;
+    letter-spacing: 5px;
+    font-weight: bolder;
+  }
+  header .MobileDropDown ul li a:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  header .MobileDropDown ul #EventLink {
+    border-bottom: none;
+  }
+  main .BillSummaryContainer form .detailsSection {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .BillSummaryContainer Button {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 710px) {
+  header {
+    width: 100%;
+  }
+  header .links {
+    display: none;
+  }
+  header .MobileDropDown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    z-index: 2000;
+  }
+  header .MobileDropDown #RegisterLinkMobile {
+    /* background: linear-gradient(92.28deg, #ff39b1 8.54%, #fe8b2e 50.01%, #ff516a 93.7%); */
+    border-radius: 50px;
+    color: white;
+    padding: 0.5em 1.5em;
+    width: 27vw;
+    min-width: 150px;
+    margin: 0.2em 0.5em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  header .MobileDropDown button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    padding: 0.6em;
+    margin: 0.3em;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  header .MobileDropDown button img {
+    width: 7vw;
+  }
+  header .MobileDropDown .animationn {
+    -webkit-animation: DropDown 0.5s ease;
+            animation: DropDown 0.5s ease;
+  }
+  header .MobileDropDown ul {
+    width: 100%;
+    position: absolute;
+    top: 130%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: rgba(38, 38, 38, 0.961);
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 1px solid #565656;
+  }
+  header .MobileDropDown ul li {
+    list-style: none;
+    margin: 0.2em;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    border-bottom: 1px solid #565656;
+    padding: 1em;
+  }
+  header .MobileDropDown ul li a {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    padding: 0.7em 2em;
+    margin: 0.2em;
+    color: #ffffff;
+    -webkit-transition: all ease 150ms;
+    transition: all ease 150ms;
+    letter-spacing: 5px;
+    font-weight: bolder;
+  }
+  header .MobileDropDown ul li a:hover {
+    color: #ff506d;
+    cursor: pointer;
+  }
+  header .MobileDropDown ul #EventLink {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 610px) {
+  header .logo img {
+    width: 210px;
+    min-width: 50px;
+  }
+  header .MobileDropDown ul li a {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    padding: 0.5em 1.7em;
+    margin: 0.2em;
+    -webkit-transition: all ease 150ms;
+    transition: all ease 150ms;
+    letter-spacing: 1px;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 525px) {
+  .offerBanner img {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .CounterContainer .SubContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 0.1em 0em;
+    width: 98%;
+  }
+  .CounterContainer .SubContainer .typo .typo1 {
+    font-size: 1em;
+    margin-top: 0.1em;
+  }
+  .CounterContainer .SubContainer .typo .typo2 {
+    font-size: 1.1em;
+  }
+  .CounterContainer .SubContainer .CounterTime #countdown {
+    padding: 0.2em 0em;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .CounterContainer .SubContainer .CounterTime #countdown .cd-item {
+    padding: 0.2em;
+    margin: 0.4em 3vw;
+    max-width: 65px;
+    max-height: 65px;
+    min-width: 55px;
+    min-height: 50px;
+    border-radius: 10px;
+  }
+  .CounterContainer .SubContainer .CounterTime #countdown .cd-item span {
+    font-size: 5vw;
+  }
+  .CounterContainer .SubContainer .CounterTime #countdown .cd-item p {
+    font-size: 0.7em;
+  }
+  main .sneakPeak {
+    margin: 1em 0em !important;
+  }
+}
+
+@media (max-width: 395px) {
+  main .BillSummaryContainer form .detailsSection input {
+    border: none;
+    font-size: 1.1em;
+    padding: 0em;
+    width: 90%;
+    max-width: 550px;
+    min-width: 250px;
+    margin: 0.1em;
+    font-family: "Poppins", sans-serif;
+    margin-left: 1em;
+    color: #313131;
+    font-weight: bold;
+    background-color: transparent;
+  }
+}
+/*# sourceMappingURL=HCF.css.map */

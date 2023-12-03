@@ -1,0 +1,69 @@
+main {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+main .logo {
+  width: 500px;
+}
+
+main .logo img {
+  width: 100%;
+}
+
+main .animContainer {
+  width: 350px;
+  position: absolute;
+  top: 4em;
+}
+
+main .title {
+  font-size: 3em;
+  color: greenyellow;
+  font-family: "Poppins", sans-serif;
+}
+
+main div {
+  font-size: 1.5em;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+main .title {
+  padding-top: 3.5em;
+}
+
+@media (max-width: 520px) {
+  main .logo {
+    width: 300px;
+  }
+  main .animContainer {
+    width: 200px;
+    position: absolute;
+    top: 4em;
+  }
+  main .title {
+    font-size: 2em;
+    color: greenyellow;
+    font-family: "Poppins", sans-serif;
+    padding-top: 3em;
+  }
+  main div {
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=success.css.map */

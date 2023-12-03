@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,UAAU;EACvB,cAAc,EAAE,MAAM;EACtB,OAAO,EAAE,GAAG;CACf;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,IAAI,CAAC;IACD,KAAK,EAAE,GAAG;IACV,OAAO,EAAE,SAAS;IAClB,SAAS,EAAE,GAAG;GACjB",
+    "sources": [
+        "termsCondition.scss"
+    ],
+    "names": [],
+    "file": "termsCondition.css"
+}

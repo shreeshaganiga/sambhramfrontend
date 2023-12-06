@@ -191,7 +191,7 @@ $(".button-solid16").click(function() {
     Swal.fire({
         title: "Event Details",
 
-        html: '<div class="modalEventDetails"><p id="eventName">AIRCRAFT INVESTIGATION</p><p>[AERO]</p><p id="date">Date: Day 1</p><p id="fee">Entry Fee: Rs 250/-</p><p id="location">Location: 403 (Canteen Building)</p><p id="time">Timing: 2:00 PM - 3:00 PM </p><p>Student Coordinator:<br>Ms. MS. ZUHA SHAH (+91 7829036160)</p><p id="rules">Rules: <br />Two make a team. ROUND 1 : BASIC AIRCRAFT PHYSICS QUIZ. ROUND 2 : IDENTIFY THE AIRCRAFT NAME AND COMPANY. ROUND 3 : AIRCRAFT INVESTIGATION. Scenario Description shall be provided, and a team is required to solve it. </p><a class="reglink" href="http://register.shreedevisambhram.com">Register</a></div>',
+        html: '<div class="modalEventDetails"><p id="eventName">AIRCRAFT INVESTIGATION</p><p>[AERO]</p><p id="date">Date: Day 1</p><p id="fee">Entry Fee: Rs 250/-</p><p id="location">Location: 403 (Canteen Building)</p><p id="time">Timing: 2:00 PM - 3:00 PM </p><p>Student Coordinator:<br>Mr. KIRTHAN (+91 8660043937)</p><p id="rules">Rules: <br />Two make a team. ROUND 1 : BASIC AIRCRAFT PHYSICS QUIZ. ROUND 2 : IDENTIFY THE AIRCRAFT NAME AND COMPANY. ROUND 3 : AIRCRAFT INVESTIGATION. Scenario Description shall be provided, and a team is required to solve it. </p><a class="reglink" href="http://register.shreedevisambhram.com">Register</a></div>',
         showCloseButton: true,
         icon: "",
         showCancelButton: false,
